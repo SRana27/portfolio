@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.p-60{
+    padding: 60px; 
+}
+
+.social-icon{
+
+ padding-left:10%;
+ font-size: 30px;
+    
+}
+
+.social-icons li{
+ list-style: none;
+    padding-left: 12px;
+  
+   
+  
+}
+.social-icons i{
+    color:black;
+
+}
+.social-icons i:hover{
+    color: blue;
+
+}
+
+
+.navbar button {
+ background-color: #fff;
+
+}
+.home-content{
+
+    color: #fff;
+    font-size: 30px;
+    font-weight:200px;
+   padding-left: 10%;
+   padding-top: 30vh;
+   color: black;
+}
+.home-content h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.home-section{
+    width: 100%;
+
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    min-height:100vh;
+   
+    background-image:linear-gradient(-90deg,rgba(0,0,0,0),rgba(80,120,165,1) ),url("../img/cvrpic.jpg");
+    background-size:cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+   
+}
+
+.about-section{
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px blue;
+}
+   
+
+.about{
+    box-shadow: 0px 0px 10px blue;
+}
+  
+.potfolio-part{
+   
+   
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(0, 255, 13);
+}
+
+
+.mypic{
+    height:200px;
+   width: 200px;
+}
+.about-content{
+    color: black;
+    text-align: justify;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 100%;
+}
+.potfolio-part p{
+
+    color:rgb(216, 21, 21);
+}
+
+.contact-part{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(214, 137, 21);
+}
+.project-part{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(211, 20, 201);
+}
+.contact_right input,textarea{
+    border-radius: 0px !important;
+  
+}
+
+.contact_right input:focus{
+    border:1px solid red;
+    box-shadow: 0px 0px 0px;
+}
+textarea:focus{
+    border: 1px solid red !important;
+    box-shadow: 0px 0px 0px !important ;
+}
+.custom_btn{
+    background-color:#e74860;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.custom_btn:hover{
+
+    background-color:green
+}
+
+@media only screen and  (min-width:320px) and (max-width:480px){
+    
+.home-section{
+    /* min-height:auto; */
+    /* 10px=1vh */
+    background-image:linear-gradient(-90deg,rgba(0,0,0,0),rgba(80,120,165,1) ),url("../img/cvrpic.jpg");
+    background-size:475px 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* margin-top: 30px; */
+    /* background-position: center; */
+    background-attachment: fixed;
+   
+
+
+}
+.home-content{
+
+    color: #fff;
+    font-size: 15px;
+    font-weight:100px;
+   padding-left: 10%;
+   
+   color: black;
+}
+.home-content h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+}
+
+@media (min-width:481px) and (max-width:767px){
+
+
+    .home-section{
+     
+        background-image:linear-gradient(-90deg,rgba(0,0,0,0),rgba(80,120,165,1) ),url("../img/cvrpic.jpg");
+        background-size:700px 800px;
+        background-repeat: no-repeat;
+        width: 100%;
+        /* margin-top: 30px; */
+        /* background-position: center; */
+        background-attachment: fixed;
+       
+    
+    
+    }
+    
+.home-content{
+    
+        color: #fff;
+        font-size: 15px;
+        font-weight:100px;
+       padding-left: 10%;
+       
+       color:black;
+}
+    .home-content h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    }
+
+    @media screen  and(max-width:991px ){
+
+.about-content p{
+    font-size: 10px;
+}
+    }
